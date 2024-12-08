@@ -1,0 +1,4 @@
+langchain_openai
+pandas
+langchain_experimental
+tabulate
