@@ -40,4 +40,11 @@ to the final answer.
 
 QUESTION = "how many people live in San Francisco and under 50?" # 定义问题
 
-print(agent.invoke(CSV_PROMPT_PREFIX + QUESTION + CSV_PROMPT_SUFFIX)['output'])
+response = agent.invoke(CSV_PROMPT_PREFIX + QUESTION + CSV_PROMPT_SUFFIX)
+
+# 将结果保存到文件 log.txt
+output_file = "./log.txt"
+with open(output_file, "w", encoding="utf-8") as file:
+    file.write(response['output'])
+
+print(f"Output has been saved to {output_file}")

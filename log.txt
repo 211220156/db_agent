@@ -1,0 +1,4 @@
+There are 5 people who live in San Francisco and are under 50 years old.
+
+Explanation:
+To answer the question, I used the 'City' and 'Age' columns of the dataframe. First, I checked the unique values in the 'City' column to confirm that 'San Francisco' was included. Then, I cleaned the 'Age' column by removing rows with non-numeric values, converted the 'Age' column to integers, and filtered the dataframe based on 'City' and 'Age' to get a subset of individuals living in San Francisco and under 50 years old. Finally, I counted the number of rows in this subset, which resulted in 5 people meeting the criteria.
