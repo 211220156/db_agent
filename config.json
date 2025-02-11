@@ -1,0 +1,5 @@
+{
+  "save_logs_to_file": true,
+  "verbose": false,
+  "max_retries": 10
+}
